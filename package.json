@@ -1,0 +1,12 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "CSS Learning project",
+  "main": "index.js",
+  "author": "Vince Suriani <chenzorama@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}
