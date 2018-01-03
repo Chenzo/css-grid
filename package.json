@@ -7,6 +7,9 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "gulp-sass": "^3.1.0"
+    "browser-sync": "^2.23.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3"
   }
 }

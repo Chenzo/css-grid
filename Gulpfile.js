@@ -25,6 +25,11 @@ gulp.task('default', ['styles'] ,function() { //'styles',
 	    proxy: 'http://localhost:8088'
 	});
     gulp.watch('./src/scss/**/*.scss',['styles']);
+    gulp.watch("./www/*.php").on('change', browserSync.reload);
+    gulp.watch("./www/*.html").on('change', browserSync.reload);
+    gulp.watch("./www/**/*.php").on('change', browserSync.reload);
+    gulp.watch("./www/**/*.html").on('change', browserSync.reload);
+    gulp.watch("./www/js/**/*.js").on('change', browserSync.reload);
 });
 
 
