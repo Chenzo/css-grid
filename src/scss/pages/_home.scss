@@ -1,5 +1,58 @@
 
 
 section {
-	
+
+	padding: 20px;
+
+	div.myGrid {
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: 400px 200px 1fr;
+		-ms-grid-rows: 200px 200px;
+		grid-template-columns: 200px 400px 1fr;
+		grid-template-rows: 200px 100px 300px;
+		
+		grid-column-gap: 10px;
+		grid-row-gap: 20px; 
+		width: 100%;
+
+
+		div {
+			background-color: $oxblood;
+			&:nth-child(even) {
+				background-color: $blackboard;
+			}
+			padding: 20px;
+			color: $tan;
+			border: 1px solid $blackboard;
+			border-radius: 3px;
+			-ms-grid-column: auto;
+		}
+
+		div:nth-child(1) {
+			-ms-grid-column: 1;
+		}
+
+		div:nth-child(2) {
+			-ms-grid-column: 2;
+		}
+
+		div:nth-child(3) {
+			-ms-grid-column: 3;
+		}
+
+		div:nth-child(4) {
+			-ms-grid-column: 1;
+			-ms-grid-row: 2;
+		}
+		div:nth-child(5) {
+			-ms-grid-column: 2;
+			-ms-grid-row: 2;
+		}
+		div:nth-child(6) {
+			-ms-grid-column: 3;
+			-ms-grid-row: 2;
+		}
+	}
+
 }
