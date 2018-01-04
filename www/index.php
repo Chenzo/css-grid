@@ -25,9 +25,23 @@
                 <div>4</div>
                 <div>5</div>
                 <div>6</div>
-                <!-- <div>7</div> -->
             </div>
 
+        </section>
+
+
+        <h2>IE 11 flex fallback?</h2>
+
+        <section>
+            <div class="fallbackGrid">
+                <div>1</div>
+                <div>2</div>   
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+            </div>
         </section>
             
     </body>
