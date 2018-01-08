@@ -71,7 +71,7 @@ section {
 			color: $tan;
 			border: 1px solid $blackboard;
 			border-radius: 3px;
-	}
+		}
 	}
 
 
@@ -91,6 +91,46 @@ section {
 			}
 
 			
+		}
+	}
+
+
+	div.grid3 {
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 150px);
+		grid-gap: 1rem;
+
+		div {
+			background-color: $oxblood;
+			&:nth-child(even) {
+				background-color: $blackboard;
+			}
+			padding: 20px;
+			color: $tan;
+		}
+	}
+
+	div.grid4 {
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(3, 150px);
+		grid-template-rows: repeat(2, 150px);
+		grid-gap: 1rem;
+
+		div {
+			background-color: $oxblood;
+			&:nth-child(even) {
+				background-color: $blackboard;
+			}
+			padding: 20px;
+			color: $tan;
+
+			&.moveme {
+				grid-row: 2 / 3;
+  				grid-column: 2 / 3;
+			}
 		}
 	}
 
