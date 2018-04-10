@@ -22,7 +22,6 @@
                 <div class="bl_corner">pic2</div>
                 <div class="mdl_pic">pic3</div>
                 <div class="br_video">video</div>
-                
             </div>
 
         </section>
