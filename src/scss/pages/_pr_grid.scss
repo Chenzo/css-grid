@@ -1,0 +1,53 @@
+
+
+
+
+div.prGrid {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 300px;
+    
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    width: 100%;
+
+    div {
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 700;
+        color: #000;
+    }
+
+
+    .tl_corner {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+        background-color: #ff0000;
+    }
+
+    .tr_text {
+        grid-row: 1 / 2;
+        grid-column: 3 / 5;
+        background-color: #fff;
+    }
+
+    .bl_corner {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        background-color: #00ff00;
+    }
+
+    .mdl_pic {
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+        background-color: #0000ff;
+    }
+
+    .br_video {
+        grid-row: 2 / 3;
+        grid-column: 4 / 6;
+        background-color: #ff00ff;
+    }
+
+}
