@@ -1,0 +1,29 @@
+body.meld {
+
+    .mgrid {
+
+        display: grid;
+        grid-template-columns: 200px 400px 200px 1fr;
+        grid-template-rows: 100px 300px 100vh;
+        grid-gap: 20px;
+
+        div {
+            padding: 40px;
+            display: inline-block;
+            background-color: #555;
+            color: #fff;
+
+            &.one {
+                color: #ff0000;
+                grid-row: 3 / 5;
+                grid-column: 1 / 5;
+            }
+
+            /* &.two {
+                grid-row: 3 / 6;
+                grid-column: 1 / 3;
+            } */
+        }
+    }
+
+}
