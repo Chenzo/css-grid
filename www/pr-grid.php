@@ -27,5 +27,12 @@
         </section>
 
 
+        <div>
+
+            THIS IS AFTER THE Grid
+
+        </div>
+
+
     </body>
 </html>
