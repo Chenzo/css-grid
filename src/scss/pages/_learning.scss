@@ -1,0 +1,21 @@
+
+
+.flexy {
+
+    display: flex;
+    justify-content: center;
+
+    .one {
+        background-color: white;
+        width: 300px;
+        height: 200px;
+    }
+
+    .two {
+        background-color: red;
+        color: white;
+        width: 200px;
+        height: 400px;
+    }
+
+}
