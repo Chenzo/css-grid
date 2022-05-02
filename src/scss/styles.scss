@@ -3,12 +3,10 @@
 	"modules/functions",
 	"modules/variables",
 	"modules/mixins",
-	"modules/breakpoints",
-	"modules/grid-framework";
+	"modules/breakpoints";
 
 @import 
-	"partials/reset",
-	"partials/grid";
+	"partials/reset";
 
 @import
 	"base/typography",
